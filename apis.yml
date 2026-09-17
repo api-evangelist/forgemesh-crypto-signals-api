@@ -1,0 +1,53 @@
+name: ForgeMesh Crypto Signals API
+description: >-
+  Pay-per-call crypto market-intelligence API for autonomous agents (Kronos Market Intelligence). Provides calibrated
+  forecast ranges, signals, risk state, decision journaling, outcome audits, and whale/flow alerts, paid via x402 USDC
+  micropayments on Base. No API key or accounts. Exposes a REST API, OpenAPI 3.1 contract, llms.txt, x402 discovery
+  well-known, and a local-install MCP server.
+url: https://raw.githubusercontent.com/api-evangelist/forgemesh-crypto-signals-api/refs/heads/main/apis.yml
+created: '2026-09-17'
+modified: '2026-09-17'
+specificationVersion: '0.21'
+tags:
+  - Cryptocurrency
+  - Finance
+  - Blockchain
+  - Market Intelligence
+  - Autonomous Agents
+  - Payments
+  - x402
+  - USDC
+  - MCP
+apis:
+  - name: ForgeMesh Crypto Signals API
+    description: >-
+      REST API delivering Kronos market context, calibrated forecasts, risk state, preflight checks, decision
+      journaling, audits, and whale/flow alerts. Gated by x402 HTTP-402 USDC micropayments on Base (no API key).
+      Includes agent-native surfaces via llms.txt and OpenAPI x-guidance hints.
+    humanURL: https://crypto.forgemesh.io
+    baseURL: https://crypto.forgemesh.io
+    tags:
+      - Cryptocurrency
+      - Finance
+      - Blockchain
+      - Market Intelligence
+      - Autonomous Agents
+      - Payments
+      - x402
+      - USDC
+      - MCP
+    properties:
+      - type: OpenAPI
+        url: https://crypto.forgemesh.io/openapi.json
+      - type: Documentation
+        url: https://crypto.forgemesh.io
+      - type: LLMsTxt
+        url: https://crypto.forgemesh.io/llms.txt
+maintainers:
+  - FN: forgemeshlabs
+    url: https://github.com/forgemeshlabs
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 95
+  at: '2026-09-17T14:09:07.151Z'
